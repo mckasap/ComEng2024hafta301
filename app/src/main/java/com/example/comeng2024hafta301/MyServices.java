@@ -32,7 +32,7 @@ public class MyServices extends Service {
                 Toast.LENGTH_LONG).show();
 
 
-
+     onDestroy();
         return super.onStartCommand(intent, flags, startId);
     }
 }
